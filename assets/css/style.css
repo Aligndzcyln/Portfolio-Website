@@ -10801,4 +10801,15 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+}
+.intros .video-box a .span i {
+  font-size: 6rem;
+  color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
