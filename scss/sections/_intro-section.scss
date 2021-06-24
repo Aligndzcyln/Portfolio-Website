@@ -15,14 +15,15 @@
         position: relative;
 
         a{
-            @include absoluteCenter;
+            // if we want for bring to center we can use it
+            // @include absoluteCenter;
             position: absolute;
 
                 span{
 
                 i{
                     font-size: 6rem;
-                    color: $black;
+                    color: $secondary;
                 }
             }
         }
