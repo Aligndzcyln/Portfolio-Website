@@ -10806,6 +10806,10 @@ textarea.form-control-lg {
 }
 .intros .video-box a {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 .intros .video-box a span i {
   font-size: 6rem;
