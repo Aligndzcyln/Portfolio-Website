@@ -10807,7 +10807,7 @@ textarea.form-control-lg {
 .intros .video-box a {
   position: absolute;
 }
-.intros .video-box a .span i {
+.intros .video-box a span i {
   font-size: 6rem;
   color: #000;
 }
