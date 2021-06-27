@@ -24,4 +24,24 @@
             display: inline-block;
         }
     }
+
+    .heading-line::before{
+        content: "";
+        width: 10rem;
+        height: 0.1rem;
+        display: block;
+        margin: auto;
+        background-color: $primary;
+    }
+
+    .heading-line::after {
+        content: "";
+        width: 2rem;
+        padding-top: 0.5rem;
+        height: 0.2rem;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        background-color: $primary;
+    }
 }

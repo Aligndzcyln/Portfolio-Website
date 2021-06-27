@@ -10797,6 +10797,24 @@ textarea.form-control-lg {
     display: inline-block;
   }
 }
+.display-2 .heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: auto;
+  background-color: #9926f0;
+}
+.display-2 .heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #9926f0;
+}
 
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 239, 0.95));
