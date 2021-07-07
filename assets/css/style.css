@@ -10820,7 +10820,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-3--title {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -10829,6 +10829,11 @@ textarea.form-control-lg {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
 }
 
 .border-right {
@@ -10907,11 +10912,32 @@ textarea.form-control-lg {
 }
 .services__content {
   padding: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 0;
+}
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
 }
 .services__content .icon {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #9926f0;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.services__pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
