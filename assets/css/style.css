@@ -10998,6 +10998,7 @@ textarea.form-control-lg {
   height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  border-top: 0.5rem solid #BB6EF5;
 }
 .portfolio-box img {
   width: 100%;
@@ -11026,6 +11027,8 @@ textarea.form-control-lg {
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   visibility: visible;
+  transition-duration: 1000ms;
+  transition-property: all;
 }
 
 /*# sourceMappingURL=style.css.map */
