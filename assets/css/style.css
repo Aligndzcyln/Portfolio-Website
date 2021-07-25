@@ -11164,5 +11164,9 @@ textarea.form-control-lg {
   color: #dee2e6;
   text-decoration: none;
 }
+.footer-bottom__copyright a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
